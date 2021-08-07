@@ -1,0 +1,98 @@
+div{
+	width: 150px;
+	height: 150px;
+	background: #4A88F4;
+	color: #fff;
+	font-size: 30px; 
+	float: left;
+
+}
+
+#logo{
+  background-color: tomato;
+  color: white;
+  border: 5px solid black;
+  margin: 1px;
+  padding: 1px;
+  width: 400px;
+  height: 95px;
+  float: left; 
+  font-family: sans-serif;
+}
+
+.titulo{
+	margin-top: 25px;
+	font-size: 30px;
+}
+
+
+.caja_padre {
+   width: 1000px;
+   height: 800px;
+   background: #000;
+   position: relative;
+   top: 50px;
+   left: 200px;	
+}
+
+.caja_hijo1{
+	position: relative;
+	top: 100px;
+	left: 50px;
+}
+
+.caja_hijo2{
+	position: relative;
+	top: 100px;
+	left: 100px;
+}
+
+.caja_hijo3{
+	position: relative;
+	top: 100px;
+	left: 150px;
+}
+
+.caja_hijo4{
+	position: relative;
+	top: 300px;
+	left: 0px;
+}
+
+.caja_hijo5{
+	position: absolute;
+	top: 300px;
+	left: 50px;
+}
+
+.caja_hijo6{
+	position: relative;
+	top: 300px;
+	left: -350px;
+}
+
+.caja_hijo7{
+	position: relative;
+	top: 500px;
+	left: -500px;
+}
+
+.caja_hijo8{
+	position: absolute;
+	top: 500px;
+	left: 50px;
+}
+
+.caja_hijo9{
+	position: relative;
+	top: 350px;
+	left: 450px;
+}
+
+
+
+.caja_hijo10{
+	position: fixed;
+	top: 200px;
+	left: 50px;
+}
